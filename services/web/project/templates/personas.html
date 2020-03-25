@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="col">
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Nombres:</label>
+      <input type="text" class="form-control" id="fNombre" aria-describedby="emailHelp">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Apellidos:</label>
+      <input type="text" class="form-control" id="fApellido" aria-describedby="emailHelp">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">C.I.:</label>
+      <input type="number" class="form-control" id="fCi" aria-describedby="emailHelp">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Nro. de WhatsApp:</label>
+      <input type="number" class="form-control" id="fWa" aria-describedby="emailHelp">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Origen:</label>
+      <input type="text" class="form-control" id="fOrigen" aria-describedby="emailHelp">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Destino:</label>
+      <input type="text" class="form-control" id="fDestino" aria-describedby="emailHelp">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+{% endblock %}

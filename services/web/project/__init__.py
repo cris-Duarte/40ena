@@ -17,4 +17,4 @@ def hello_world():
 
 @app.route("/personas")
 def personas():
-    return jsonify(hello="world")
+    return render_template('personas.html')
