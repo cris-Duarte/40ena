@@ -1,0 +1,7 @@
+*.DS_Store
+*.env.dev
+*.env.prod
+
+*.env.prod.db
+
+*.csv
